@@ -1,0 +1,42 @@
+# OS & Editor
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Build / Runtime
+node_modules/
+venv/
+__pycache__/
+*.log
+tmp/
+.cache/
+dist/
+build/
+
+# Local Overrides
+.env
+*.local
+*.override.*
+
+# Secrets
+crypto/
+*.key
+*.pem
+*.crt
+*.gpg
+*.p12
+id_*
+auth.json
+secrets.*
+*.token
+*.kube/config
+
+# Archives / Dumps
+*.zip
+*.tar.gz
+*.sql
+*.dump
+
+# Git
+!.gitignore
